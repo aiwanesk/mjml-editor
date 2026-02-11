@@ -1,0 +1,81 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, sans-serif" />
+      <mj-text font-size="14px" color="#333333" line-height="1.6" />
+      <mj-button background-color="#4F46E5" color="#ffffff" border-radius="6px" font-size="16px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#f4f4f5">
+
+    <!-- Header -->
+    <mj-section background-color="#4F46E5" padding="20px 0">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="24px" font-weight="bold">
+          Acme Corp
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero image -->
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-image src="https://placehold.co/600x250/4F46E5/ffffff?text=Bienvenue" alt="Bienvenue" width="600px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Contenu principal -->
+    <mj-section background-color="#ffffff" padding="30px 40px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="bold" color="#111827">
+          Bienvenue parmi nous !
+        </mj-text>
+        <mj-text padding-top="15px">
+          Nous sommes ravis de vous compter parmi nos utilisateurs. Votre compte est maintenant actif et vous pouvez commencer à explorer toutes nos fonctionnalités.
+        </mj-text>
+        <mj-button href="https://example.com/dashboard" padding-top="25px">
+          Accéder à mon espace
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="#e5e7eb" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- 2 colonnes features -->
+    <mj-section background-color="#ffffff" padding="20px 40px">
+      <mj-column>
+        <mj-image src="https://placehold.co/100x100/6366F1/ffffff?text=1" width="80px" />
+        <mj-text font-weight="bold" align="center" padding-top="10px">Personnalisez</mj-text>
+        <mj-text align="center" font-size="13px" color="#6b7280">
+          Adaptez votre espace à vos besoins en quelques clics.
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://placehold.co/100x100/6366F1/ffffff?text=2" width="80px" />
+        <mj-text font-weight="bold" align="center" padding-top="10px">Collaborez</mj-text>
+        <mj-text align="center" font-size="13px" color="#6b7280">
+          Invitez votre équipe et travaillez ensemble en temps réel.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#f9fafb" padding="20px 40px">
+      <mj-column>
+        <mj-text align="center" font-size="12px" color="#9ca3af">
+          Acme Corp - 42 rue de la Paix, 75002 Paris
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#9ca3af" padding-top="5px">
+          <a href="https://example.com/unsubscribe" style="color: #9ca3af;">Se désinscrire</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
